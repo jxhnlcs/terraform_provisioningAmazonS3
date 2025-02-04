@@ -20,6 +20,12 @@ Antes de começar, certifique-se de ter os seguintes requisitos atendidos:
      terraform -version
      ```
 
+     ou
+
+     ```bash
+     scoop install terraform
+     ```
+
 ## 🔑 Criando um usuário IAM na AWS
 
 Para permitir que o Terraform crie recursos na AWS, precisamos configurar um usuário com permissões adequadas.
