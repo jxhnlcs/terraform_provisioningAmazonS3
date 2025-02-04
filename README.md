@@ -15,15 +15,16 @@ Antes de começar, certifique-se de ter os seguintes requisitos atendidos:
      ```
 3. **Terraform** instalado - Ferramenta para infraestrutura como código.
    - Baixe e instale via [terraform.io](https://developer.hashicorp.com/terraform/downloads)
+     
+       ou
+     
+     ```bash
+     scoop install terraform
+     ```
+     
    - Verifique a instalação com:
      ```sh
      terraform -version
-     ```
-
-     ou
-
-     ```bash
-     scoop install terraform
      ```
 
 ## 🔑 Criando um usuário IAM na AWS
